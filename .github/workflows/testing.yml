@@ -20,7 +20,7 @@ jobs:
       
     - name: Build
       run: |
-        dotnet build Swftx.Wpf/Wpf.csproj -c Debug --no-restore
+        dotnet build Swftx.Wpf/Swftx.Wpf.csproj -c Debug --no-restore
         dotnet build Tests/Swftx.Wpf.Tests/Swftx.Wpf.csproj -c Debug --no-restore
       
     - name: Test
