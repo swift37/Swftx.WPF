@@ -18,7 +18,7 @@
   <PropertyGroup>
     <PackageId>Swftx.WPF</PackageId>
     <Authors>swift37</Authors>
-    <Description></Description>
+    <Description>A set of tools for working with the MVVM design pattern in WPF.</Description>
     <Copyright>rafchik37@gmail.com</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryUrl>https://github.com/swift37/Swftx.WPF</RepositoryUrl>
