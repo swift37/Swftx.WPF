@@ -24,15 +24,15 @@ jobs:
     - name: Restore
       run: |
           dotnet restore Swftx.Wpf/Swftx.Wpf.csproj
-          dotnet restore Tests/Swftx.Wpf.Tests/WPF.Styles.Tests.csproj
+          dotnet restore Tests/Swftx.Wpf.Test/Swftx.Wpf.Test.csproj
       
     - name: Building
       run: |
         dotnet build Swftx.Wpf/Swftx.Wpf.csproj -c Release --nologo
-        dotnet build Tests/Swftx.Wpf.Tests/Swftx.Wpf.Tests.csproj -c Release --nologo
+        dotnet build Tests/Swftx.Wpf.Test/Swftx.Wpf.Test.csproj -c Release --nologo
       
     - name: Testing
-      run: dotnet test Tests/Swftx.Wpf.Tests/Swftx.Wpf.Tests.csproj --nologo
+      run: dotnet test Tests/Swftx.Wpf.Test/Swftx.Wpf.Test.csproj --nologo
 
     - name: Packing
       run: dotnet pack Swftx.Wpf/Swftx.Wpf.csproj --no-build -c Release -v q
