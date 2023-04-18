@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Swftx.Wpf\Swftx.Wpf.csproj" />
+    <ProjectReference Include="..\..\Swftx.Wpf\Swftx.Wpf.csproj" />
   </ItemGroup>
 
 </Project>
