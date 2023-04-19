@@ -9,9 +9,9 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <PackageReleaseNotes>
-      Project launch
+      Base ViewModel
     </PackageReleaseNotes>
   </PropertyGroup>
 
