@@ -16,5 +16,13 @@ namespace Swftx.Wpf.ViewModels
             OnPropertyChanged(propertyName);
             return true;
         }
+
+        protected virtual bool Set<T>(T value, T oldValue, Action<T> Setter, [CallerMemberName] string? propertyName = null)
+        {
+            if(Equals(value, oldValue)) return false;
+            Setter(value);
+            OnPropertyChanged(); 
+            return true;
+        }
     }
 }
