@@ -9,9 +9,9 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
     <PackageReleaseNotes>
-      Base ViewModel
+      New Setters in ViewModel, Generic Lambda Command, Enumerable Extensions, ObservableCollection Extensions.
     </PackageReleaseNotes>
   </PropertyGroup>
 
@@ -28,5 +28,9 @@
     <AssemblyOriginatorKeyFile>Swftx.Wpf.snk</AssemblyOriginatorKeyFile>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Extensions\" />
+  </ItemGroup>
 
 </Project>
